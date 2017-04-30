@@ -4,21 +4,33 @@ body {
   text-align: center;
 }
 
-.bg-img {
+.front-title-block {
   background-image: url("../images/the-flatiron-building.png");
+  background-position: right center;
   background-repeat: no-repeat;
-  background-size: contain;
-  height:auto;
+  padding-bottom: 10px;
 }
 
-.front-title {
+#front-title-text {
   font-size:70px;
   font-weight: bold;
   color: white;
+  padding-top: 4px;
 }
 
-nav link {
+nav li {
   font-size: 18px;
+  list-style-type: none;
+}
+
+#main-menu a {
+  color: white;
+  text-decoration: none;
+}
+
+#main-menu a:hover {
+  color: dimgray;
+  text-decoration: none;
 }
 
 p {
@@ -31,29 +43,41 @@ h1 {
 }
 
 h2 {
-  font-size: 12px;
+  font-size: 23px;
   font-weight: bold;
-}
-
-.white-bg {
-  background-color: white;
 }
 
 .designed_in_title {
   font-size: 23px;
   font-weight: bold;
   color: white;
-}
-
-.footer-menu {
-  display: inline-block;
-  margin: 10px;
+  background-image: url("../images/the-flatiron-building.png");
+  background-position: right center;
+  background-repeat: no-repeat;
+  padding-top: 2px;
+  padding-bottom: 2px;
 }
 
 footer {
   background-color: dimgray;
+  display: inline-block;
+  width: 100%;
+  margin-bottom: 10px;
 }
 
 footer .copyright {
   font-size: 11px;
+  color: white;
+  float:left;
+  margin: 0px 15px 0px 10px;
+}
+
+footer #footer-menu {
+  float:left;
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+footer a {
+  color: white;
 }
